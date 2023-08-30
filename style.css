@@ -12,6 +12,16 @@ body {
   /* width: 100%; */
 }
 
+#download-icons {
+  left: 4%;
+  right: 4%;
+}
+
+#topper {
+  left: 4%;
+  right: 4%;
+}
+
 h1 {
   font-family: "Lucida Console", Courier, monospace;
   font-style: oblique;
