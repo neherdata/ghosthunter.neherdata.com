@@ -22,12 +22,11 @@
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 
-
 </head>
 
 <body class="vscode-body vscode-light">
   <p align="center">
-    <img alt="ndsLogo" width="300" height="300" src="https://github.com/neherdata.png">
+    <img alt="ghosthunter" width="300" height="300" src="ghost_hunter.png">
   </p>
   <h1 align="center">NDS Ghost Hunter</h1>
   <p align="center"><i>by Neher Data Systems!</i></p>
