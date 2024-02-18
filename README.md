@@ -36,3 +36,6 @@
         Us</a> • <a href="https://twitter.com/neherdata">Twitter</a> • <a
         href="https://www.facebook.com/neherdata">Facebook</a> • <a href="https://instagram.com/neherdata">Instagram</a>
     </p>
+
+
+[![Deploy Ghost Hunter Landing Page [ghosthunter.neherdata.com] to GitHub Pages](https://github.com/neherdata/ghosthunter.neherdata.com/actions/workflows/static.yml/badge.svg)](https://github.com/neherdata/ghosthunter.neherdata.com/actions/workflows/static.yml)
