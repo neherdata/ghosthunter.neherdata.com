@@ -4,6 +4,22 @@
 <html prefix="og: https://ogp.me/ns#">
 
 <head>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//matomo.neher.casa/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '9']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
   <meta charset="UTF-8" />
 
   <link rel="icon" href="favicon.ico" />
@@ -120,33 +136,41 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <div id="topper">
-    <img alt="ghosthunter" width="300" height="300" src="ghost_hunter.png">
+    <p align="center"><img alt="ghosthunter" width="300" height="300" src="ghost_hunter.png"
+        style="border: 5px solid black; border-radius: 13px;"></p>
     <h1>NDS Ghost Hunter</h1>
     <h2>by Neher Data Systems</h2>
     <br />
   </div>
 
   <div id="download-icons">
-    <h2><i>Download today!</i></h2>
     <br />
-    <a href="https://apps.apple.com/us/app/nds-ghost-hunter/id1671457267?itsct=apps_box_badge&amp;itscg=30200"
-      style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-        src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1687305600"
-        alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
-    <br />
-    <a
-      href='https://play.google.com/store/apps/details?id=com.neherdata.ghosthunter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-        alt='Get it on Google Play'
-        src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
+    <p align="center"><a
+        href="https://apps.apple.com/us/app/nds-ghost-hunter/id1671457267?itsct=apps_box_badge&amp;itscg=30200"
+        style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+          src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1687305600"
+          alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+      <br />
+      <a
+        href='https://play.google.com/store/apps/details?id=com.neherdata.ghosthunter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+          alt='Get it on Google Play'
+          src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
+          style="border-radius: 13px; width: 250px; height: 83px;"></a>
+    </p>
   </div>
 
+  <div id="footer">
+    <p align="center">© 2024 <a href="https://www.neherdata.com/">Neher Data Systems</a></p>
+    <p align="center"><a href="https://tos.neherdata.com/">Terms of Service</a> | <a
+        href="https://privacy.neherdata.com/">Privacy
+        Policy</a>
+    </p>
+  </div>
 </body>
 
 
 <footer>
-  <p>© 2023 <a href="https://www.neherdata.com/">Neher Data Systems</a></p>
-  <p><a href="https://tos.neherdata.com/">Terms of Service | <a href="https://privacy.neherdata.com/">Privacy Policy</a>
-  </p>
+
 </footer>
 
 </html>
